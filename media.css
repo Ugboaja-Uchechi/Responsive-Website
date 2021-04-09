@@ -1,0 +1,440 @@
+   
+   
+   /* NAVIGATION SECTION  */
+
+   @media screen and (max-width:768px){
+    div.nav-bar{
+        display: flex;
+        justify-content: space-between;
+        padding: 16px;
+        width: 100%;
+    }
+    div.logo{
+        font-size: 19px;
+    }
+    div.toggle-icon{
+        display: block;
+        color: white;
+        font-size: 18px;
+    }
+    .toggle-icon:hover+ul.nav-links{
+        display: block;
+        right: 0px;
+    }
+    .burger {
+        display: flex;
+        margin-top: 7px;
+    }
+    ul.nav-links{
+        flex-direction: column;
+        position: fixed;
+        right: -150px;
+        transition: all 0.5s linear;
+        height: 150px;
+        top: 0;
+        padding: 10px 0;
+        line-height: 30px;
+        background: #304353;
+        text-align: center;
+        z-index: 99999;
+    }
+    ul li {
+        margin: 0;
+        font-size: 1rem;
+    }
+
+    ul li a {
+        color: white;
+    }
+
+
+    /* Hero section */
+
+    div.hero-section {
+        padding: 10rem 3rem;
+    }
+
+    div.hero-content-heading h3 {
+        font-size: 1.5rem;
+    }
+
+    div.hero-content-heading p {
+        font-size: 0.9rem;
+    }
+
+
+    /* Sub hero section */
+
+
+    div.hero-background {
+        padding: 9rem 2rem;
+    }
+
+    div.background {
+        padding: 10px 20px;
+        width: 100%;
+    }
+
+    div.background h4 {
+        text-align: center;
+        padding: 1.5rem;
+    }
+
+
+    .hero-background-pos {
+        display: none;
+    }
+
+
+    /* Snapshot-team section */
+
+    div.snapshot-box {
+        padding: 4rem 1rem;
+    }
+
+
+    /* Snapshot box content section */
+
+
+    div.snapshot-box-content {
+        flex-direction: column;
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    div.box1 {
+        width: 100%;
+        height: 380px;
+        margin: 20px 0;
+    }
+
+    div.box3 {
+        width: 100%;
+        height: 380px;
+        margin: 20px 0;
+    }
+
+    div.circle {
+        width: 170px;
+        height: 170px;
+        margin-top: 3rem;
+    }
+
+    div.box1 h5 {
+        font-size: 1.4rem;
+        padding-top: 2.7rem;
+    }
+
+    div.box3 h5 {
+        font-size: 1.4rem;
+        padding-top: 2.7rem;
+    }
+
+
+
+    /* Gallery section */
+
+
+    div.gallery-section {
+        padding: 2rem;
+    }
+
+    div.gallery-img {
+        flex-direction: column;
+    }
+
+    div.img {
+        margin: 20px;
+    }
+
+    div.img img {
+        width: 100%;
+        object-fit: cover;
+        height: 380px;
+    }
+
+
+    /* Footer section */
+
+
+    div.footer {
+        padding: 2rem;
+    }
+
+    div.footer-input {
+        flex-direction: column;
+    }
+
+    input[type='text'] {
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    input[type='email'] {
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+}
+
+
+  /* Navigation section */
+
+
+@media screen and (max-width:425px) {
+    div.nav-bar {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    div.logo {
+        font-size: 1.5rem;
+    }
+
+    div.toggle-icon {
+        font-size: 25px;
+    }
+
+     .toggle-button {
+        margin-top: 15px;
+    }
+
+
+    /* Hero section */
+
+
+    div.hero-section {
+        padding: 9rem 0rem;
+    }
+
+    div.hero-content-heading h3 {
+        font-size: 1.5rem;
+    }
+
+    div.hero-content-heading p {
+        font-size: 0.9rem;
+    }
+
+
+    /* Sub hero section */
+
+    div.hero-background {
+        padding: 8rem 1rem;
+    }
+
+    div.background {
+        padding: 0px 0.5rem;
+        width: 100%;
+    }
+
+    div.background h4 {
+        text-align: center;
+        padding: 1.5rem;
+    }
+
+    div.background p {
+        text-align: center;
+        padding: 0.5rem;
+    }
+
+
+    .hero-background-pos {
+        display: none;
+    }
+
+
+    /* Snapshot box content section */
+
+    div.snapshot-box-content {
+        flex-direction: column;
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+
+    /* Gallery section */
+    div.gallery-section {
+        padding: 0.5rem;
+    }
+
+}
+
+
+
+
+   /* Navigation section */
+
+@media screen and (max-width:375px) {
+    div.nav-bar {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    div.logo {
+        font-size: 1.5rem;
+    }
+
+    div.toggle-icon {
+        font-size: 25px;
+    }
+
+
+    /*  Hero section */
+
+
+    div.hero-section {
+        padding: 9rem 0rem;
+    }
+
+    div.hero-content-heading h3 {
+        font-size: 1.5rem;
+    }
+
+    div.hero-content-heading p {
+        font-size: 0.9rem;
+    }
+
+
+    /* Sub hero section */
+
+
+    div.hero-background {
+        padding: 8rem 1rem;
+    }
+
+    div.background {
+        padding: 0px 0.5rem;
+        width: 100%;
+    }
+
+    div.background h4 {
+        text-align: center;
+        padding: 1.5rem;
+    }
+
+    div.background p {
+        text-align: center;
+        padding: 0.5rem;
+    }
+
+
+    .hero-background-pos {
+        display: none;
+    }
+
+
+    /* Snapshot box content section */
+
+
+    div.snapshot-box-content {
+        flex-direction: column;
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+
+    /* Gallery section */
+
+
+    div.gallery-section {
+        padding: 0.5rem;
+    }
+
+}
+
+  /* Navigation section */
+
+@media screen and (max-width:320px) {
+    div.nav-bar {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    div.logo {
+        font-size: 1.3rem;
+    }
+
+    div.toggle-icon {
+        font-size: 25px;
+    }
+
+    /* Hero section */
+
+    div.hero-section {
+        padding: 8rem 0.5rem;
+    }
+
+    div.hero-content-heading h3 {
+        font-size: 1.2rem;
+    }
+
+    div.hero-content-heading p {
+        font-size: 0.8rem;
+    }
+
+
+    /* Sub hero section */
+
+    div.hero-background {
+        padding: 8rem 1rem;
+    }
+
+    div.background {
+        padding: 0px 0.1rem;
+    }
+
+    div.background h4 {
+        padding: 1.2rem;
+    }
+
+    div.background p {
+        padding: 0.1rem;
+    }
+
+
+    /* Snapshot box content section */
+
+
+    div.snapshot-team {
+        padding: 0 0.3rem;
+    }
+
+    div.snapshot-team h2 {
+        font-size: 1.3rem;
+    }
+
+    div.snapshot-team p {
+        font-size: 0.8rem;
+    }
+
+    div.snapshot-box {
+        padding: 2rem 0 4rem 0;
+    }
+
+    div.snapshot-box-content {
+        padding: 0 1rem;
+    }
+
+    div.box1 {
+        margin: 10px 0;
+    }
+
+
+    /* Gallery section */
+
+    div.gallery-section {
+        padding: 1rem 0 0 0;
+    }
+
+
+}
