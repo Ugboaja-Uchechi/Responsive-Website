@@ -1,1 +1,1 @@
-Link to a responsivelanding page https://ugboaja-uchechi.github.io/Responsive-Website/
+Link to a responsive landing page https://ugboaja-uchechi.github.io/Responsive-Website/
